@@ -7,7 +7,7 @@ const massEl = document.getElementById("con-mass")
 // Limit the number of 4 characters in the input field
 numInput.addEventListener("input", function() {
     if (this.value.length > 5) {
-        this.value = this.value.slice(0, 5);
+        this.value = this.value.substring(0, 5);
     }
 })
 
