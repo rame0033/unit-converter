@@ -4,7 +4,7 @@ const lengthEl = document.getElementById("con-length")
 const volumeEl = document.getElementById("con-volume")
 const massEl = document.getElementById("con-mass")
 
-// Limit the number of 4 characters in the input field
+// Limit the number of 5 characters in the input field
 numInput.addEventListener("input", function() {
     if (this.value.length > 5) {
         this.value = this.value.substring(0, 5);
@@ -19,12 +19,11 @@ const gallon2liter = 3.785
 const kg2pound = 2.205
 const pound2kg = 0.4536
 
-
-
 // Conversion functions
 convertBtn.addEventListener("click", function() {
     
     try{
+    // Retrieve the input value
     const baseNum = parseFloat(numInput.value)
     
     // Check if the input is a number 
