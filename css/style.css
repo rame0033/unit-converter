@@ -3,7 +3,7 @@
 
 body{
     display: grid;
-    min-height: 100vh;
+    min-height: 95vh;
     place-items: center;
     background-color: #1F2937;
     padding: 1rem
