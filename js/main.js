@@ -35,13 +35,13 @@ convertBtn.addEventListener("click", function () {
 
 
         // length conversion (meter to feet and vice versa)
-        lengthEl.textContent = `${baseNum} meters = ${(baseNum * meter2feet).toFixed(2)} feet | ${baseNum} feet = ${(baseNum * feet2meter).toFixed(2)} meters`;
+        lengthEl.textContent = `${baseNum} meters = ${(baseNum * meter2feet).toFixed(3)} feet | ${baseNum} feet = ${(baseNum * feet2meter).toFixed(2)} meters`;
 
         // volume conversion (liter to gallon and vice versa)
-        volumeEl.textContent = `${baseNum} liters = ${(baseNum * liter2gallon).toFixed(2)} gallons | ${baseNum} gallons = ${(baseNum * gallon2liter).toFixed(2)} liters`;
+        volumeEl.textContent = `${baseNum} liters = ${(baseNum * liter2gallon).toFixed(3)} gallons | ${baseNum} gallons = ${(baseNum * gallon2liter).toFixed(2)} liters`;
 
         // mass conversion (kg to pound and vice versa)
-        massEl.textContent = `${baseNum} kilograms = ${(baseNum * kg2pound).toFixed(2)} pounds | ${baseNum} pounds = ${(baseNum * pound2kg).toFixed(2)} kilograms`;
+        massEl.textContent = `${baseNum} kilograms = ${(baseNum * kg2pound).toFixed(3)} pounds | ${baseNum} pounds = ${(baseNum * pound2kg).toFixed(2)} kilograms`;
 
     } catch (error) {
         alert("Please enter a valid number")
