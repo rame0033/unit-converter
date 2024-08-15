@@ -12,4 +12,4 @@ This is a project courtesy of Scrimba - a practice on JavaScript specifically on
 ### What I have learned
 - With the use of `toFixed()` method, I am able to round off numbers in designated decimal places.
 
-- The use of `template literals` has been helpful to me to set a template string with the `${}`syntax to include the value of the equation inside the string.
+- The use of `template literals` has been helpful to me to set a template string with the `${}` syntax to include the value of the equation inside the string.
