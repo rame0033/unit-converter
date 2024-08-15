@@ -58,6 +58,7 @@ input[type=number]::-webkit-outer-spin-button {
 /* Hide arrows - FIREFOX browser */
 input[type=number] {
     -moz-appearance: textfield;
+    appearance: textfield;
 }
 
 /* Style the number input */
